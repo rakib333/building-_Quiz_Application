@@ -1,0 +1,40 @@
+{
+    "title": "Country Quiz",
+    "questions":[
+        {
+            "question": "What is the capital of Bangladesh?",
+            "type": "single",
+            "options": ["Dhaka", "khulna", "cumilla", "cox bazar"],
+            "answer": "Dhaka"
+
+        },
+        {
+            "question": "Which currency uses in Bangladesh?",
+            "type": "single",
+            "options": ["Taka", "Doller", "Rupee", "Dinar"],
+            "answer": "Taka"
+
+        },
+        {
+            "question": "which one is the biggest river of Bangladesh?",
+            "type": "single",
+            "options": ["Padma", "Meghna", "Jamuna", "Brammoputro"],
+            "answer": "Padma"
+
+        },
+        {
+            "question": "Famous tourist spot of Bangladesh?",
+            "type": "multiple",
+            "options": ["cox's bazar", "sundarban", "kuakata", "Bandorban", "kolkata"],
+            "answer": ["cox's bazar", "sundarban", "kuakata", "Bandorban"]
+
+        },
+        {
+            "question": "Two biggest city of Bangladesh?",
+            "type": "multiple",
+            "options": ["Dhaka", "khulna", "cumilla", "Chattogram"],
+            "answer": ["Dhaka", "Chattogram"]
+
+        }
+    ]
+}
