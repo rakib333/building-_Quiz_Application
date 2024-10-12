@@ -22,11 +22,11 @@
             echo "<h2>Question: {$quiz['question']}</h2>";
             if ($quiz["type"] == 'single') {
                 foreach ($quiz['options'] as $option) {
-                    echo "<label><input type='radio' name='quiz{$index}' value='{$option}'>{$option}</label>";
+                    echo "<label><input type='radio' name='quiz{$index}' value=\"{$option}\">{$option}</label>";
                 }
             } elseif ($quiz["type"] == 'multiple') {
                 foreach ($quiz['options'] as $option) {
-                    echo "<label><input type='checkbox' name='quiz{$index}[]' value='{$option}'>{$option}</label>";
+                    echo "<label><input type='checkbox' name='quiz{$index}[]' value=\"{$option}\">{$option}</label>";
                 }
             }
         }
